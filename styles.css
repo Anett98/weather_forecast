@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-vector/flat-design-monsoon-season-clouds-illustration_23-2149424294.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.form__input {
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+    color: #5E5A80;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #5E5A80;
+}
+
+.form__input::placeholder {
+    color: #5E5A80;
+}
+
+.form__button {
+    width: 90px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #5E5A80;
+    color: white;
+    cursor: pointer;
+}
+
+.wetherContainer{
+    overflow: auto;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.weather{
+    background-color: #5d51cc5b;
+    width: 200px;
+    height: 260px;
+    border: 1px solid #5E5A80;
+    text-align: center;
+}
+
+.weather__wind{
+    width: 30px;
+    height: 30px;
+}
+
+.weather__icon{
+    margin-top: 10px;
+    width: 70px;
+}
+
+.weather__details{
+    margin-top: 15px;
+}
+
+.weather__wind{
+    margin-top: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #554e4e21;
+  border-radius: 60px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5E5A80;
+  border-radius: 60px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
